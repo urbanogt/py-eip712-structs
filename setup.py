@@ -7,7 +7,7 @@ from setuptools.command.test import test as TestCommand
 
 
 NAME = 'eip712-structs'
-VERSION = '1001.1.0'
+VERSION = '1002.0.0'
 
 install_requirements = [
     'eth-utils>=1.4.0',

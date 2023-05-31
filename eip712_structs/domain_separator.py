@@ -24,7 +24,7 @@ def make_domain(name=None, version=None, chainId=None, verifyingContract=None, s
         EIP712Domain.chainId = eip712_structs.Uint(256)
         kwargs['chainId'] = int(chainId)
     if verifyingContract is not None:
-        EIP712Domain.verifyingContract = eip712_structs.Address()
+        EIP712Domain.verifyingContract = eip712_structs.String()
         kwargs['verifyingContract'] = verifyingContract
     if salt is not None:
         EIP712Domain.salt = eip712_structs.Bytes(32)
