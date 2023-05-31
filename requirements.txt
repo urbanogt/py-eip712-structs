@@ -26,7 +26,7 @@ pluggy==0.12.0
 py==1.8.0
 pycryptodome==3.8.2
 pyparsing==2.4.0
-pysha3==1.0.2
+safe-pysha3
 pytest==4.6.2
 pytest-cov==2.7.1
 requests==2.22.0

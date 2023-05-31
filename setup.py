@@ -11,7 +11,7 @@ VERSION = '1001.1.0'
 
 install_requirements = [
     'eth-utils>=1.4.0',
-    'pysha3>=1.0.2',
+    'safe-pysha3>=1.0.2',
 ]
 
 test_requirements = [
